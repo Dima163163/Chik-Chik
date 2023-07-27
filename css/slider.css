@@ -2,15 +2,14 @@
 	overflow: hidden;
 	position: relative;
 }
-.slider__container {
-	/* display: none; */
-}
+
 .slider__list {
 	display: flex;
 	list-style: none;
 	padding: 0;
 	margin: 0 -16px;
 }
+
 .slider__item {
 	padding: 0 16px;
 	flex-grow: 0;
