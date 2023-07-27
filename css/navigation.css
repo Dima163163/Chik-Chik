@@ -1,0 +1,16 @@
+.navigation__list {
+	display: flex;
+	gap: 32px;
+	list-style: none;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation__link {
+	color: #F6F3E3;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 100%;
+	text-transform: uppercase;
+}

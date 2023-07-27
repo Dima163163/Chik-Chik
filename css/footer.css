@@ -1,0 +1,25 @@
+.footer {
+	
+}
+.footer__top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 0 40px;
+	border-top: 1px solid #BFBDB2;
+}
+
+.footer__navigation {
+	display: flex;
+}
+
+.design__list {
+	list-style: none;
+}
+.design__item {
+	margin-bottom: 7px;
+}
+
+.footer__bottom-text{
+	margin: 0 0 24px;
+}
