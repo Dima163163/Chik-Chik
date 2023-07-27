@@ -161,46 +161,46 @@
 					</ol>
 					<form class="reserve__form">
 						<div class="reserve__form-container">
-							<fieldset class="reserve__fieldset">
+							<fieldset class="reserve__fieldset reserve__fieldset_sevice">
 								<legend class="reserve__legend">Услуга</legend>
 
 								<label class="radio">
-									<input class="radio__input" type="radio" name="servise">
+									<input class="radio__input" type="radio" name="service">
 									<span class="radio__label">Стрижка ножницами</span>
 								</label>
 
 								<label class="radio">
-									<input class="radio__input" type="radio" name="servise">
+									<input class="radio__input" type="radio" name="service">
 									<span class="radio__label">Стрижка машинкой</span>
 								</label>
 
 								<label class="radio">
-									<input class="radio__input" type="radio" name="servise">
+									<input class="radio__input" type="radio" name="service">
 									<span class="radio__label">Стрижка + стрижка бороды</span>
 								</label>
 
 								<label class="radio">
-									<input class="radio__input" type="radio" name="servise">
+									<input class="radio__input" type="radio" name="service">
 									<span class="radio__label">Стрижка + моделирование бороды</span>
 								</label>
 
 								<label class="radio">
-									<input class="radio__input" type="radio" name="servise">
+									<input class="radio__input" type="radio" name="service">
 									<span class="radio__label">Бритье головы</span>
 								</label>
 
 								<label class="radio">
-									<input class="radio__input" type="radio" name="servise">
+									<input class="radio__input" type="radio" name="service">
 									<span class="radio__label">Укладка</span>
 								</label>
 
 								<label class="radio">
-									<input class="radio__input" type="radio" name="servise">
+									<input class="radio__input" type="radio" name="service">
 									<span class="radio__label">Оформление бровей</span>
 								</label>
 							</fieldset>
 
-							<fieldset class="reserve__fieldset">
+							<fieldset class="reserve__fieldset" name="fieldspec">
 								<legend class="reserve__legend">Специалист</legend>
 
 								<label class="radio">
@@ -229,10 +229,10 @@
 								</label>
 							</fieldset>
 
-							<fieldset class="reserve__fieldset">
+							<fieldset class="reserve__fieldset" name="fielddata">
 								<legend class="reserve__legend">Дата и время</legend>
 
-								<fieldset class="reserve__fieldset reserve__fieldset_sub">
+								<fieldset class="reserve__fieldset reserve__fieldset_sub" name="fieldmonth">
 									<label class="radio">
 										<input class="radio__input" type="radio" name="mount">
 										<span class="radio__label">Январь</span>
@@ -249,7 +249,7 @@
 									</label>
 								</fieldset>
 
-								<fieldset class="reserve__fieldset reserve__fieldset_sub">
+								<fieldset class="reserve__fieldset reserve__fieldset_sub" name="fieldday">
 									<label class="radio">
 										<input class="radio__input" type="radio" name="day">
 										<span class="radio__label">18 января</span>
@@ -268,7 +268,7 @@
 									</label>
 								</fieldset>
 
-								<fieldset class="reserve__fieldset reserve__fieldset_sub">
+								<fieldset class="reserve__fieldset reserve__fieldset_sub" name="fieldtime">
 									<label class="radio">
 										<input class="radio__input" type="radio" name="time">
 										<span class="radio__label">10:00-11:30</span>
@@ -306,7 +306,7 @@
 								</fieldset>
 							</fieldset>
 						</div>
-						<button class="reserve__btn main-link" disabled>Записаться</button>
+						<button class="reserve__btn main-link" disabled id="btn">Записаться</button>
 					</form>
 				</div>
 			</section>
